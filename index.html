@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Abraraw Ayal, Data Science Student at Bahir Dar University">
+  <meta name="keywords" content="data science, machine learning, portfolio, Abraraw Ayal">
+  <title>Abraraw Ayal - Data Science Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Abraraw Ayal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-nav ms-auto" id="navbarNav">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-white text-center">
+    <div class="container py-5">
+      <img src="profile.jpg" alt="Abraraw Ayal Profile" class="profile-img rounded-circle mb-3">
+      <h1>Abraraw Ayal</h1>
+      <p class="lead">Data Science Student at Bahir Dar University</p>
+      <a href="#projects" class="btn btn-primary btn-lg">Explore My Projects</a>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="container my-5">
+    <h2 class="section-title">About Me</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p>Hello! I’m Abraraw Ayal, a dedicated data science student at Bahir Dar University. My journey in data science began with a curiosity for uncovering patterns in complex datasets, leading me to master machine learning, statistical analysis, and data visualization. I’ve worked on projects tackling real-world challenges like unemployment forecasting and sales prediction, using tools like Python and SQL. My goal is to leverage data to drive impactful solutions in industries like healthcare and finance.</p>
+        <p>I’m proficient in end-to-end data pipelines—data collection, cleaning, modeling, and deployment—and I thrive on turning raw data into actionable insights. Currently, I’m exploring advanced topics like deep learning and big data frameworks to push my skills further.</p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="profile.jpg" alt="Abraraw Ayal" class="img-fluid about-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section py-5">
+    <div class="container">
+      <h2 class="section-title text-white text-center">Skills</h2>
+      <div class="row text-center">
+        <div class="col-md-3"><div class="skill-item" data-skill="Python">Python <span class="progress-bar-text">90%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="NumPy">NumPy <span class="progress-bar-text">85%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="Pandas">Pandas <span class="progress-bar-text">85%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="Scikit-Learn">Scikit-Learn <span class="progress-bar-text">80%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="TensorFlow">TensorFlow <span class="progress-bar-text">70%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="Matplotlib">Matplotlib <span class="progress-bar-text">75%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="Seaborn">Seaborn <span class="progress-bar-text">75%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="SQL">SQL <span class="progress-bar-text">80%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="Git">Git <span class="progress-bar-text">70%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="HTML/CSS/JS">HTML/CSS/JS <span class="progress-bar-text">65%</span></div></div>
+        <div class="col-md-3"><div class="skill-item" data-skill="Big Data">Big Data (Hadoop) <span class="progress-bar-text">60%</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container my-5">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-filter text-center mb-4">
+      <button class="btn btn-outline-primary filter-btn active" data-filter="all">All</button>
+      <button class="btn btn-outline-primary filter-btn" data-filter="ml">Machine Learning</button>
+      <button class="btn btn-outline-primary filter-btn" data-filter="ts">Time Series</button>
+      <button class="btn btn-outline-primary filter-btn" data-filter="reg">Regression</button>
+    </div>
+    <div class="row">
+      <div class="col-md-6 project-card" data-category="ml">
+        <img src="iris.png" alt="Iris Classification" class="img-fluid mb-3">
+        <h3>Iris Flower Classification</h3>
+        <p>Developed an SVM model using Scikit-learn to classify iris species with 95% accuracy, deployed via Gradio. Dataset: UCI Iris Dataset.</p>
+        <a href="https://github.com/Abre1234/CodeAlpha_Iris_Flower_Classification" class="btn btn-outline-dark">View Code</a>
+      </div>
+      <div class="col-md-6 project-card" data-category="ts">
+        <img src="unemployment.png" alt="Unemployment Forecasting" class="img-fluid mb-3">
+        <h3>Unemployment Rate Forecasting</h3>
+        <p>Applied ARIMA to forecast unemployment trends during COVID-19 using World Bank data, achieving a 12% error margin.</p>
+        <a href="https://github.com/Abre1234/CodeAlpha_Unemployment_Rate" class="btn btn-outline-dark">View Code</a>
+      </div>
+      <div class="col-md-6 project-card" data-category="reg">
+        <img src="sales.png" alt="Sales Prediction" class="img-fluid mb-3">
+        <p>Built a linear regression model to predict future sales with 88% accuracy using historical retail data.</p>
+        <a href="https://github.com/Abre1234/CodeAlpha_Sales_Prediction" class="btn btn-outline-dark">View Code</a>
+      </div>
+      <div class="col-md-6 project-card" data-category="reg">
+        <img src="carprice.png" alt="Car Price Prediction" class="img-fluid mb-3">
+        <h3>Car Price Prediction</h3>
+        <p>Used feature engineering and random forest regression to predict used car prices with a 10% error rate. Dataset: Kaggle Car Dataset.</p>
+        <a href="https://github.com/Abre1234/CodeAlpha_Car_Price_Prediction" class="btn btn-outline-dark">View Code</a>
+      </div>
+      <div class="col-md-6 project-card" data-category="ml">
+        <img src="dataset-sample.png" alt="Customer Segmentation" class="img-fluid mb-3">
+        <h3>Customer Segmentation</h3>
+        <p>Implemented K-means clustering to segment customers for a marketing campaign, using a 10,000-row dataset from a retail client.</p>
+        <a href="https://github.com/Abre1234/segmentation-project" class="btn btn-outline-dark">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5 text-white text-center">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <form>
+        <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+        <textarea class="form-control mb-3" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+      <p class="mt-3">Or reach me at:</p>
+      <p>Email: <a href="mailto:abrarawayu@gmail.com" class="text-white">abrarawayu@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Abre1234" class="text-white">Abre1234</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/Abree1234" class="text-white">Abree1234</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Abraraw Ayal. Built with code and data-driven grit.</p>
+    <div class="social-links">
+      <a href="https://github.com/Abre1234" class="text-white mx-2">GitHub</a> |
+      <a href="https://linkedin.com/in/Abree1234" class="text-white mx-2">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

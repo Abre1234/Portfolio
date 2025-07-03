@@ -1,0 +1,122 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand, .nav-link {
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1a1a1a, #343a40);
+  padding: 120px 0;
+  position: relative;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section-title::after {
+  content: '';
+  width: 50px;
+  height: 4px;
+  background: #007bff;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-img {
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section {
+  background: #343a40;
+}
+.skill-item {
+  position: relative;
+  margin: 10px 0;
+}
+.progress-bar-text {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skill-progress {
+  height: 10px;
+  background: #007bff;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 0;
+  transition: width 1.5s ease-in-out;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+}
+.project-card img {
+  border-radius: 5px;
+}
+
+.filter-btn {
+  margin: 0 10px;
+}
+.filter-btn.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #007bff, #1a1a1a);
+}
+.contact-section form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  background: #1a1a1a;
+}
+.social-links a {
+  text-decoration: none;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  .lead { font-size: 1.2rem; }
+  .section-title { font-size: 2rem; }
+  .navbar-nav { margin-top: 10px; }
+}

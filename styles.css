@@ -63,6 +63,8 @@ h1 {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  color: white;
+
 }
 .skill-progress {
   height: 10px;

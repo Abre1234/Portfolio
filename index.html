@@ -117,10 +117,11 @@
   <section id="contact" class="contact-section py-5 text-white text-center">
     <div class="container">
       <h2 class="section-title">Contact</h2>
-      <form>
-        <input type="email" class="form-control mb-3" placeholder="Your Email" required>
-        <textarea class="form-control mb-3" placeholder="Your Message" rows="4" required></textarea>
-        <button type="submit" class="btn btn-primary">Send Message</button>
+      <form action="https://formspree.io/f/your-endpoint" method="POST">
+  <input type="email" name="email" class="form-control mb-3" placeholder="Your Email" required>
+  <textarea name="message" class="form-control mb-3" placeholder="Your Message" rows="4" required></textarea>
+  <button type="submit" class="btn btn-primary">Send Message</button>
+  <input type="text" name="_gotcha" style="display:none;" aria-hidden="true"> <!-- Honeypot to reduce spam -->
       </form>
       <p class="mt-3">Or reach me at:</p>
       <p>Email: <a href="mailto:abrarawayu@gmail.com" class="text-white">abrarawayu@gmail.com</a></p>

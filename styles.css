@@ -59,13 +59,17 @@ h1 {
   margin: 10px 0;
   color: white;
 }
+.skills-section .skill-item {
+  position: relative;
+  margin: 10px 0;
+  color: white !important; /* Increased specificity and forced override */
+}
 .progress-bar-text {
   position: absolute;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  color: white;
-
+  color: white !important; /* Ensured percentages stay white */
 }
 .skill-progress {
   height: 10px;

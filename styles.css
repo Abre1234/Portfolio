@@ -57,6 +57,7 @@ h1 {
 .skill-item {
   position: relative;
   margin: 10px 0;
+  color: white;
 }
 .progress-bar-text {
   position: absolute;

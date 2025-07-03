@@ -3,7 +3,7 @@
 Portfolio showcasing my data science projects and skills as a student at Bahir Dar University. Built with HTML, CSS, and JavaScript, hosted on GitHub Pages.
 
 ## Live Site
-[Abre1234.github.io]:([https://Abre1234.github.io](https://abre1234.github.io/Portfolio2/))
+[Abre1234.github.io]([https://Abre1234.github.io](https://abre1234.github.io/Portfolio2/)
 
 ## Projects
 - Iris Flower Classification
